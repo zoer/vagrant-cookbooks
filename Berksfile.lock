@@ -1,0 +1,76 @@
+{
+  "sources": {
+    "apt": {
+      "locked_version": "2.3.4"
+    },
+    "powershell": {
+      "locked_version": "1.1.2"
+    },
+    "rbenv": {
+      "locked_version": "1.7.1"
+    },
+    "redisio": {
+      "locked_version": "1.7.0"
+    },
+    "phantomjs": {
+      "locked_version": "1.0.3"
+    },
+    "mongodb": {
+      "locked_version": "0.13.7"
+    },
+    "elasticsearch": {
+      "locked_version": "0.3.7"
+    },
+    "java": {
+      "locked_version": "1.17.2"
+    },
+    "windows": {
+      "locked_version": "1.12.4"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
+    "dmg": {
+      "locked_version": "2.1.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "runit": {
+      "locked_version": "1.5.3"
+    },
+    "yum": {
+      "locked_version": "3.0.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "ulimit": {
+      "locked_version": "0.3.2"
+    },
+    "chocolatey": {
+      "locked_version": "0.0.5"
+    },
+    "python": {
+      "locked_version": "1.4.4"
+    },
+    "xml": {
+      "locked_version": "1.2.0"
+    },
+    "monit": {
+      "locked_version": "0.7.1"
+    },
+    "ark": {
+      "locked_version": "0.4.2"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    }
+  }
+}

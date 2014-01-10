@@ -1,0 +1,8 @@
+depends "apt"
+depends "powershell"
+depends "rbenv"
+depends "redisio"
+depends "java"
+depends "elasticsearch"
+depends "mongodb"
+depends "phantomjs"

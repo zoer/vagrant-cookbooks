@@ -1,0 +1,17 @@
+{
+  "run_list": ["recipe[main]"],
+  "elasticsearch": {
+    "version": "0.90.3"
+  },
+  "rbenv": {
+    "group_users": ["vagrant","root"]
+  },
+  "java": {
+    "install_flavor": "openjdk"
+  },
+  "redisio": {
+    "default_settings": {
+      "loglevel": "notice"
+    }
+  }
+}
