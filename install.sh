@@ -1,2 +1,2 @@
 #!/bin/sh
-berks install --path ./vendor
+nohup berks install --path ./vendor
