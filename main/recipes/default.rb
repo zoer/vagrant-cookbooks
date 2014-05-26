@@ -1,5 +1,6 @@
 package "git-core"
 package "htop mc vim"
+package "tree"
 package "libmagickwand-dev" #rmagick gem
 package "chkconfig"
 package "sudo"
