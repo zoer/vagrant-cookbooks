@@ -1,76 +1,76 @@
-{
-  "sources": {
-    "apt": {
-      "locked_version": "2.3.4"
-    },
-    "powershell": {
-      "locked_version": "1.1.2"
-    },
-    "rbenv": {
-      "locked_version": "1.7.1"
-    },
-    "redisio": {
-      "locked_version": "1.7.0"
-    },
-    "phantomjs": {
-      "locked_version": "1.0.3"
-    },
-    "mongodb": {
-      "locked_version": "0.13.7"
-    },
-    "elasticsearch": {
-      "locked_version": "0.3.7"
-    },
-    "java": {
-      "locked_version": "1.17.2"
-    },
-    "windows": {
-      "locked_version": "1.12.4"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.4"
-    },
-    "git": {
-      "locked_version": "2.9.0"
-    },
-    "dmg": {
-      "locked_version": "2.1.0"
-    },
-    "build-essential": {
-      "locked_version": "1.4.2"
-    },
-    "runit": {
-      "locked_version": "1.5.3"
-    },
-    "yum": {
-      "locked_version": "3.0.2"
-    },
-    "yum-epel": {
-      "locked_version": "0.2.0"
-    },
-    "ohai": {
-      "locked_version": "1.1.12"
-    },
-    "ulimit": {
-      "locked_version": "0.3.2"
-    },
-    "chocolatey": {
-      "locked_version": "0.0.5"
-    },
-    "python": {
-      "locked_version": "1.4.4"
-    },
-    "xml": {
-      "locked_version": "1.2.0"
-    },
-    "monit": {
-      "locked_version": "0.7.1"
-    },
-    "ark": {
-      "locked_version": "0.4.2"
-    },
-    "aws": {
-      "locked_version": "1.0.0"
-    }
-  }
-}
+DEPENDENCIES
+  apt
+  elasticsearch
+  java
+  mongodb
+  phantomjs
+  powershell
+  rbenv
+  redisio
+
+GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
+  apt (2.4.0)
+  ark (0.9.0)
+    7-zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (2.0.4)
+  chef_handler (1.1.6)
+  chocolatey (0.1.0)
+    powershell (>= 0.0.0)
+  dmg (2.2.0)
+  elasticsearch (0.3.10)
+    ark (>= 0.2.4)
+    build-essential (>= 0.0.0)
+    java (>= 0.0.0)
+    monit (>= 0.0.0)
+    xml (>= 0.0.0)
+  git (4.0.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  java (1.22.0)
+  mongodb (0.16.1)
+    apt (>= 1.8.2)
+    python (>= 0.0.0)
+    runit (>= 1.5.0)
+    yum (>= 3.0)
+  ms_dotnet2 (1.0.0)
+    windows (>= 0.0.0)
+  ms_dotnet4 (1.0.2)
+    windows (>= 0.0.0)
+  ms_dotnet45 (1.1.2)
+    windows (>= 0.0.0)
+  ohai (2.0.1)
+  phantomjs (1.0.3)
+    build-essential (>= 0.0.0)
+    chocolatey (>= 0.0.0)
+  powershell (3.0.4)
+    ms_dotnet2 (>= 0.0.0)
+    ms_dotnet4 (>= 0.0.0)
+    ms_dotnet45 (>= 0.0.0)
+    windows (>= 1.2.8)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  rbenv (1.7.1)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+    ohai (>= 1.1)
+  redisio (1.7.1)
+    ulimit (>= 0.1.2)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  ulimit (0.3.2)
+  windows (1.31.0)
+    chef_handler (>= 0.0.0)
+  yum (3.0.6)
+  yum-epel (0.3.6)
+    yum (~> 3.0)

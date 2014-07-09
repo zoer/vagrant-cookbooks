@@ -1,7 +1,7 @@
 {
   "run_list": ["recipe[main]"],
   "elasticsearch": {
-    "version": "0.90.3"
+    "version": "1.2.1"
   },
   "rbenv": {
     "group_users": ["vagrant","root"]
