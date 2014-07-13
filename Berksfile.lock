@@ -3,6 +3,9 @@ DEPENDENCIES
   elasticsearch
   java
   mongodb
+    git: git://github.com/edelight/chef-mongodb.git
+    revision: dda37fbddee4a3dd041839bc98f1cc1444dc74f7
+    ref: dda37
   phantomjs
   powershell
   rbenv
@@ -16,6 +19,7 @@ GRAPH
     7-zip (>= 0.0.0)
     windows (>= 0.0.0)
   build-essential (2.0.4)
+  chef-sugar (2.0.0)
   chef_handler (1.1.6)
   chocolatey (0.1.0)
     powershell (>= 0.0.0)
@@ -38,7 +42,8 @@ GRAPH
     apt (>= 1.8.2)
     python (>= 0.0.0)
     runit (>= 1.5.0)
-    yum (>= 3.0)
+    yum (>= 3.0.0)
+  monit (0.7.1)
   ms_dotnet2 (1.0.0)
     windows (>= 0.0.0)
   ms_dotnet4 (1.0.2)
@@ -71,6 +76,9 @@ GRAPH
   ulimit (0.3.2)
   windows (1.31.0)
     chef_handler (>= 0.0.0)
+  xml (1.2.6)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
   yum (3.0.6)
   yum-epel (0.3.6)
     yum (~> 3.0)

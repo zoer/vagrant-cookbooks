@@ -1,7 +1,8 @@
 {
   "run_list": ["recipe[main]"],
   "elasticsearch": {
-    "version": "1.2.1"
+    "version": "1.2.2",
+    "allocated_memory": "512m"
   },
   "rbenv": {
     "group_users": ["vagrant","root"]
@@ -13,5 +14,9 @@
     "default_settings": {
       "loglevel": "notice"
     }
+  },
+  "mongodb": {
+    "install_method": "mongodb-org",
+    "package_version": "2.6.3"
   }
 }

@@ -1,4 +1,4 @@
-site :opscode
+source "https://api.berkshelf.com"
 # def dependencies(path)
 #   berks = "#{path}/Berksfile.in"
 #   instance_eval(File.read(berks)) if File.exists?(berks)
@@ -16,6 +16,6 @@ cookbook "rbenv"
 cookbook "redisio"
 #cookbook "htpasswd"
 cookbook "phantomjs"
-cookbook "mongodb"
+cookbook "mongodb", github:"edelight/chef-mongodb", ref:"dda37" # till >= 0.16.2
 cookbook "elasticsearch"
 cookbook "java"
